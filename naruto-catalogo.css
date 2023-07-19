@@ -1,12 +1,14 @@
 body{
-    background: white
+    background: rgb(220,224,232);
+background: radial-gradient(circle, rgba(220,224,232,1) 39%, rgba(57,90,244,1) 83%);
 }
 #principal{
-    width: 50vw;
-    height: 10vh;
+    width: 100vw;
+    height: 11vh;
     display: flex;
     justify-content: center;
     background-color: #063099;
+    padding: 12px;
 }
 
 #teste{
@@ -21,15 +23,58 @@ body{
     border: 7px groove #50aaff;
 }
 #menu{
-    
-    background-color: #063099;
-    padding: 30px;
-    
+    padding: 40px;
 }
 a{
     color: #a9bef5;
     text-decoration: none;
     font-weight: bold;
-    
-    padding: 5px;
+    padding: 10px;
 }
+  
+  .search-container{
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+}
+  
+  input#search-bar{
+    margin: 0 auto;
+    width: 98%;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 2px solid #a9bef5;
+    outline
+    &:focus{
+      border: 1px solid #000000;
+      transition: 0.35s ease;
+      color: #000000;
+      &::-webkit-input-placeholder{
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &::-moz-placeholder {
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &:-ms-placeholder {
+       transition: opacity 0.45s ease; 
+         opacity: 0;
+       }    
+     }
+   }
+  
+  .search-icon{
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 75px;
+    top: -58px;
+    right: -45px;
+  }
+  
+  
+  
+  
