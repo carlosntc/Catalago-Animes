@@ -1,11 +1,31 @@
-body{
-    
+body {
+  background: url('imagens/dsBuffer.bmp.png');
+  margin: 0;
+  
+  
 }
-.imgs{
-    position: absolute;
-  left: 900px;
-  top: 50px;
+.teste {
+  margin-left: 400px; /* Ajuste conforme necessário */
+  margin-top: 150px;
 }
-.formt{
-    color: #DC143C;
+
+.teste img {
+  width: 500px; /* Ajuste conforme necessário */
+  height: 400px; /* Ajuste conforme necessário */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 65vh;
+}
+.login{
+  font-size: 40px;
+  margin-right: 100px;
+  margin-top: -650px;
+  text-align: start;
+  margin-right: 120px; /* Adicionar margem à direita */
+  padding: 80px; /* Adicionar algum preenchimento */
+  font-family: 'Trebuchet MS', sans-serif;
+  
 }
