@@ -5,13 +5,13 @@ body {
   
 }
 .teste {
-  margin-left: 400px; /* Ajuste conforme necessário */
+  margin-left: 300px; 
   margin-top: 150px;
 }
 
 .teste img {
-  width: 500px; /* Ajuste conforme necessário */
-  height: 400px; /* Ajuste conforme necessário */
+  width: 500px; 
+  height: 400px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,10 +22,66 @@ body {
 .login{
   font-size: 40px;
   margin-right: 100px;
-  margin-top: -650px;
+  margin-top: -680px;
   text-align: start;
-  margin-right: 120px; /* Adicionar margem à direita */
-  padding: 80px; /* Adicionar algum preenchimento */
+  margin-right: 120px; 
+  padding: 40px; 
   font-family: 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  font-weight: 600;
+  color: #d8d5e2;
+}
+.tabela{
+  display: flex;
+    margin-top: -60px;
+    flex-direction: column;
+    align-items: end;
+    align-content: end;
+    justify-content: start;
+    width: 78%;
+    height: 50vh;
+}
+.fromlogin{
+  color:  #d8d5e2;
+  font-family: 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color:  
+  #2b1c5b;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+  gap: 5px
   
 }
+h2{
+  text-align: center;
+  font-size: 30px;
+  color:  #d8d5e2;
+}
+.btn {
+  background-color: #d8d5e2;
+  color: #2b1c5b;
+  font-size: 20px;
+  font-weight: 800;
+  border: none !important;
+  transition: all linear 160ms;
+  cursor: pointer;
+  margin: 0 !important;
+  border-radius: 10px;
+
+}
+.formtbotom{
+  padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+.fromlogin label {
+  margin-bottom: -30px; 
+}
+
