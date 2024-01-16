@@ -1,7 +1,10 @@
-
+body{
+    background: #f4f4f4;
+}
 #principal{
     width: 920px;
-    border: 1px solid red;
+    height: 585px;
+    border: 3px solid red;
 }
 .noticia{
     background:  #e5e5e5;
@@ -13,6 +16,10 @@
 .clear{
     clear: both;
 }
-#fotos{
-
+.imagen_galeria{
+    background:  #e5e5e5;
+    padding: 5px;
+    width: 280px;
+    margin: 8px;
+    float: left;
 }
