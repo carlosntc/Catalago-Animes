@@ -20,7 +20,7 @@ background: radial-gradient(circle, rgba(220,224,232,1) 39%, rgba(57,90,244,1) 8
     align-items: center;
 }
 #borda{
-    border: 7px groove #50aaff;
+    border: 10px groove #50aaff;
 }
 #menu{
     padding: 40px;

@@ -2,8 +2,23 @@ body{
     background: url(imagens/nasa2.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100vh;  
+}
+#principal{
+    display: flex;
     
-    
-    
+    padding: 20px;
+    margin: 30px;
+    font-size: 30px;
+    color: white;
+}
+.teste{
+    justify-content: flex-end;
+    display: flex;
+    margin-top: 10px;
+    padding: 20px;
+    margin-left: 950px;
+}
+.teste a {
+    margin-right: 20px; 
 }
